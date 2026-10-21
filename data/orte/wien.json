@@ -1,0 +1,131 @@
+{
+ "name": "Wien",
+ "bundesland": "Wien",
+ "typ": "Stadt (23 Bezirke)",
+ "versorger": "Stadt Wien – Wiener Wasser",
+ "quelle": "https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte",
+ "quelle_titel": "Stadt Wien: Wasserhärte – Qualität des Wiener Trinkwassers",
+ "abgerufen": "2026-10-21",
+ "min_dh": 6,
+ "max_dh": 20,
+ "zusammenfassung": "Das Wiener Trinkwasser hat laut Wiener Wasser in der Regel eine Gesamthärte von 6 bis 12 °dH. In Ausnahmefällen kann sie durch Einspeisung von Grundwasser bis 20 °dH steigen – vor allem in den Bezirken 2, 3, 11, 20, 21 und 22. Wiener Wasser empfiehlt, Haushaltsgeräte generell auf <10 °dH einzustellen.",
+ "zonen": [
+  {
+   "zone": "1. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "2. Bezirk",
+   "dh": "6–12 / 6–20",
+   "mmol": "1,07–1,96 / 1,07–3,57"
+  },
+  {
+   "zone": "3. Bezirk",
+   "dh": "6–12 / 6–20",
+   "mmol": "1,07–1,96 / 1,07–3,57"
+  },
+  {
+   "zone": "4. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "5. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "6. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "7. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "8. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "9. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "10. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "11. Bezirk",
+   "dh": "6–12 / 6–20",
+   "mmol": "1,07–1,96 / 1,07–3,57"
+  },
+  {
+   "zone": "12. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "13. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "14. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "15. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "16. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "17. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "18. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "19. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  },
+  {
+   "zone": "20. Bezirk",
+   "dh": "6–12 / 6–20",
+   "mmol": "1,07–1,96 / 1,07–3,57"
+  },
+  {
+   "zone": "21. Bezirk",
+   "dh": "6–12 / 6–20",
+   "mmol": "1,07–1,96 / 1,07–3,57"
+  },
+  {
+   "zone": "22. Bezirk",
+   "dh": "6–12 / 6–20",
+   "mmol": "1,07–1,96 / 1,07–3,57"
+  },
+  {
+   "zone": "23. Bezirk",
+   "dh": "6–12",
+   "mmol": "1,07–2,14"
+  }
+ ],
+ "hinweis": "Tonbanddienst Wiener Wasser zur Härte je Bezirk: +43 1 599 59-32900.",
+ "slug": "wien"
+}

@@ -1,0 +1,72 @@
+{
+ "name": "Linz",
+ "bundesland": "Oberösterreich",
+ "typ": "Stadt",
+ "versorger": "LINZ AG Wasser",
+ "quelle": "https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-maerz-april2026.pdf",
+ "quelle_titel": "LINZ AG: Trinkwasser-Untersuchungsergebnisse Versorgungsgebiet Linz, März–April 2026 (PDF)",
+ "quelle2": "https://www.linzag.at/portal/de/privatkunden/zuhause/wasser_1/wasserqualitaet",
+ "abgerufen": "2026-10-21",
+ "min_dh": 14.7,
+ "max_dh": 20.3,
+ "zusammenfassung": "Linzer Wasser ist eher hart: Laut LINZ AG (März–April 2026) liegt die Gesamthärte je nach Zone zwischen 14,7 °dH (Neue Heimat, Spallerhof/Keferfeld) und 20,3 °dH (Kleinmünchen). Die meisten Zonen fallen in Härtestufe III (>16 °dH).",
+ "zonen": [
+  {
+   "zone": "Innere Stadt",
+   "dh": "18,8",
+   "stufe": "III"
+  },
+  {
+   "zone": "Bulgariplatz/Industriegebiet",
+   "dh": "18,8",
+   "stufe": "III"
+  },
+  {
+   "zone": "Kleinmünchen",
+   "dh": "20,3",
+   "stufe": "III"
+  },
+  {
+   "zone": "Neue Heimat",
+   "dh": "14,7",
+   "stufe": "II"
+  },
+  {
+   "zone": "Pichling",
+   "dh": "20,0",
+   "stufe": "III"
+  },
+  {
+   "zone": "Froschberg/Freinberg",
+   "dh": "15,6",
+   "stufe": "II"
+  },
+  {
+   "zone": "Spallerhof/Keferfeld",
+   "dh": "14,7",
+   "stufe": "II"
+  },
+  {
+   "zone": "Ebelsberg",
+   "dh": "15,2",
+   "stufe": "II"
+  },
+  {
+   "zone": "Hafen",
+   "dh": "16,4",
+   "stufe": "III"
+  },
+  {
+   "zone": "Urfahr Ost",
+   "dh": "16,5",
+   "stufe": "III"
+  },
+  {
+   "zone": "Urfahr West",
+   "dh": "19,6",
+   "stufe": "III"
+  }
+ ],
+ "hinweis": "Ihre Zone steht auf der Wasserrechnung bzw. im Zonenplan der LINZ AG. Umlandgemeinden: Gemeindeamt oder trinkwasserinfo.at.",
+ "slug": "linz"
+}

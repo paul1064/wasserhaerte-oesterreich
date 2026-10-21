@@ -1,0 +1,62 @@
+{
+ "name": "Innsbruck",
+ "bundesland": "Tirol",
+ "typ": "Stadt",
+ "versorger": "Innsbrucker Kommunalbetriebe (IKB)",
+ "quelle": "https://www.ikb.at/wasserhaerte-innsbruck",
+ "quelle_titel": "IKB: Wasserhärte Innsbruck (Tabelle nach Stadtteil) und Wasserhärteplan (PDF)",
+ "quelle2": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/Wasserhaerteplan.pdf",
+ "abgerufen": "2026-10-21",
+ "min_dh": 1.5,
+ "max_dh": 21.2,
+ "zusammenfassung": "Die Wasserhärte in Innsbruck hängt vom Stadtteil ab. Im Großteil des Stadtgebiets liegt sie laut IKB bei 6,2 °dH (weich). Ausreißer sind Amras (1,5 °dH) sowie Mentlberg (15,9 °dH) und Oberes Hötting West (21,2 °dH).",
+ "zonen": [
+  {
+   "zone": "Stadt",
+   "dh": "6,2",
+   "stufe": "1"
+  },
+  {
+   "zone": "Arzl",
+   "dh": "7,9",
+   "stufe": "1"
+  },
+  {
+   "zone": "Hungerburg",
+   "dh": "7,8",
+   "stufe": "1"
+  },
+  {
+   "zone": "Oberes Hötting",
+   "dh": "7,4",
+   "stufe": "1"
+  },
+  {
+   "zone": "Oberes Hötting West",
+   "dh": "21,2",
+   "stufe": "3"
+  },
+  {
+   "zone": "Sieglanger",
+   "dh": "6,2–15,9",
+   "stufe": "1–2"
+  },
+  {
+   "zone": "Mentlberg",
+   "dh": "15,9",
+   "stufe": "2"
+  },
+  {
+   "zone": "Amras",
+   "dh": "1,5",
+   "stufe": "1"
+  },
+  {
+   "zone": "Igls – Vill",
+   "dh": "4,0–6,2",
+   "stufe": "1"
+  }
+ ],
+ "hinweis": "IKB-Härtestufen: 1 = 0–10 °dH, 2 = 10–16 °dH, 3 = >16 °dH.",
+ "slug": "innsbruck"
+}

@@ -1,0 +1,41 @@
+{
+ "name": "Schwaz",
+ "bundesland": "Tirol",
+ "typ": "Stadt",
+ "versorger": "Stadtwerke Schwaz",
+ "quelle": "https://www.stadtwerkeschwaz.at/pdfs/Flyer%20Qualit%C3%A4t%20des%20Schwazer%20Trinkwassers.pdf",
+ "quelle_titel": "Stadtwerke Schwaz: Die Qualität des Schwazer Wassers (Untersuchungsergebnisse 2024, Vers. 01/2026)",
+ "quelle2": "https://www.schwaz.at/stadtleben/umwelt-u-forst/umweltservice/",
+ "abgerufen": "2026-10-21",
+ "min_dh": 2.5,
+ "max_dh": 18.7,
+ "zusammenfassung": "Schwaz hat keine einheitliche Wasserhärte. Laut Stadtwerken (Messungen 2024) liegt die Stadtzone bei 7,1–10,9 °dH; deutlich härter ist der untere Pirchanger mit 18,7 °dH, sehr weich der Zintberg mit 2,5 °dH. Die Stadtgemeinde nennt auf ihrer Website etwas abweichend 4–7 °dH für das Stadtgebiet und 18–20 °dH für den Pirchanger – die Härte schwankt je nach Jahreszeit (Mischung Brunnen/Quellen).",
+ "zonen": [
+  {
+   "zone": "Zone 1 – Stadt",
+   "dh": "7,1–10,9"
+  },
+  {
+   "zone": "Zone 2 – Zintberg",
+   "dh": "2,5"
+  },
+  {
+   "zone": "Zone 3 – Schlinglberg u. oberer Freundsberg",
+   "dh": "8,7"
+  },
+  {
+   "zone": "Zone 4 – oberer Pirchanger",
+   "dh": "4,6"
+  },
+  {
+   "zone": "Zone 5 – unterer Pirchanger",
+   "dh": "18,7"
+  },
+  {
+   "zone": "Zone 6 – Arzberg",
+   "dh": "kein Wert veröffentlicht"
+  }
+ ],
+ "hinweis": "Arzberg (Zone 6) ist im Flyer ohne Härtewert angegeben.",
+ "slug": "schwaz"
+}

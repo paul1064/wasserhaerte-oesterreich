@@ -1,0 +1,65 @@
+{
+ "name": "Salzburg (Stadt)",
+ "bundesland": "Salzburg",
+ "typ": "Stadt",
+ "versorger": "Salzburg AG",
+ "quelle": "https://www.salzburg-ag.at/waerme-wasser/privat/wasser/trinkwasser.html",
+ "quelle_titel": "Salzburg AG: Unser Trinkwasser; Aktuelle Wasseranalysen Oktober 2026 (PDF)",
+ "quelle2": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+ "abgerufen": "2026-10-21",
+ "min_dh": 9,
+ "max_dh": 18.5,
+ "zusammenfassung": "Für rund 90 % der Stadt Salzburg liegt die Wasserhärte laut Salzburg AG bei 9–11 °dH (mittelhart). In Randbereichen sind es je nach Gewinnungsstelle bis 18 °dH. In der aktuellen Analyse (Proben 28./29.09.2026) wurden 10,0 bis 18,5 °dH gemessen – am härtesten in Langwied.",
+ "zonen": [
+  {
+   "zone": "Hochbehälter Mönchsberg (Messung 29.09.2026)",
+   "dh": "10,6"
+  },
+  {
+   "zone": "Hochbehälter Kapuzinerberg (29.09.2026)",
+   "dh": "10,0"
+  },
+  {
+   "zone": "Fürstenbrunn/Glanegg, Moosstraße (29.09.2026)",
+   "dh": "10,2"
+  },
+  {
+   "zone": "Itzling (29.09.2026)",
+   "dh": "14,1"
+  },
+  {
+   "zone": "Glasenbach (28.09.2026)",
+   "dh": "12,8"
+  },
+  {
+   "zone": "Parsch (28.09.2026)",
+   "dh": "11,8"
+  },
+  {
+   "zone": "Gnigl (28.09.2026)",
+   "dh": "12,3"
+  },
+  {
+   "zone": "Langwied (28.09.2026)",
+   "dh": "18,5"
+  },
+  {
+   "zone": "Quellen Tiefenbach (Jahresbereich)",
+   "dh": "17–18"
+  },
+  {
+   "zone": "Quellen Gniglerberg (Jahresbereich)",
+   "dh": "10–12"
+  },
+  {
+   "zone": "Quellen Gersberg (Jahresbereich)",
+   "dh": "11–12"
+  },
+  {
+   "zone": "Quelle Kalter Brunnen (Jahresbereich)",
+   "dh": "12"
+  }
+ ],
+ "hinweis": "Ihre Versorgungszone zeigt der Wasserhärteplan der Salzburg AG.",
+ "slug": "salzburg"
+}
