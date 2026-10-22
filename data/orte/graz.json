@@ -1,0 +1,18 @@
+{
+ "name": "Graz",
+ "bundesland": "Steiermark",
+ "typ": "Stadt",
+ "versorger": "Holding Graz – Wasserwirtschaft",
+ "quelle": "https://www.holding-graz.at/de/wasser/wasserlabor/",
+ "quelle_titel": "Holding Graz: Wasserlabor – Trinkwasser-Analysewerte 2025",
+ "abgerufen": "2026-10-22",
+ "min_dh": 15,
+ "max_dh": 22,
+ "zusammenfassung": "Das Grazer Trinkwasser ist laut Holding Graz mittelhart bis hart: Die Gesamthärte liegt bei 15–18 °dH (Werte 2025). Wenn in den südlichen Stadtbezirken das Wasserwerk Feldkirchen zugeschaltet wird, kann sie bis 22 °dH erreichen. Die Carbonathärte liegt bei 11–14 °dH (mit Feldkirchen 11–16 °dH).",
+ "zonen": [
+  {"zone": "Stadtgebiet (Normalbetrieb)", "dh": "15–18"},
+  {"zone": "Südliche Stadtbezirke bei Zuschaltung Wasserwerk Feldkirchen", "dh": "15–22"}
+ ],
+ "hinweis": "Werte laut Holding Graz (Messwerte 2025, Wertebereich). Carbonathärte: 11–14 °dH bzw. 11–16 °dH mit Wasserwerk Feldkirchen.",
+ "slug": "graz"
+}
