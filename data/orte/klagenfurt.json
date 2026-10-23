@@ -1,0 +1,17 @@
+{
+ "name": "Klagenfurt am Wörthersee",
+ "bundesland": "Kärnten",
+ "typ": "Stadt",
+ "versorger": "STADTWERKE Klagenfurt",
+ "quelle": "https://www.stw.at/privat/wasser/wasserqualitaet/",
+ "quelle_titel": "STADTWERKE Klagenfurt: Wasserqualität",
+ "abgerufen": "2026-10-23",
+ "min_dh": 17,
+ "max_dh": 20,
+ "zusammenfassung": "Das Klagenfurter Trinkwasser hat laut STADTWERKE Klagenfurt eine natürliche Härte von 17–20 °dH und gilt damit als hart. Die exakten Analysewerte stehen in den Untersuchungszeugnissen im Downloadbereich der Stadtwerke.",
+ "zonen": [
+  {"zone": "Versorgungsgebiet STADTWERKE Klagenfurt", "dh": "17–20"}
+ ],
+ "hinweis": "Wertebereich laut STADTWERKE Klagenfurt; Detailwerte in den Untersuchungszeugnissen (Analyse durch das Institut für Lebensmitteluntersuchung, Veterinärmedizin und Umwelt des Landes Kärnten).",
+ "slug": "klagenfurt"
+}
