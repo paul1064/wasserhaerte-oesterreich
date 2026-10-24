@@ -1,0 +1,17 @@
+{
+ "name": "St. Pölten",
+ "bundesland": "Niederösterreich",
+ "typ": "Stadt",
+ "versorger": "Magistrat der Stadt St. Pölten – Trinkwasserversorgung",
+ "quelle": "https://www.st-poelten.at/gv-buergerservice/bauen-und-wohnen/bauen/wasser",
+ "quelle_titel": "Stadt St. Pölten: Wasser – Untersuchungsbefund Brunnen IV (Harland) vom 13.01.2026",
+ "abgerufen": "2026-10-24",
+ "min_dh": 14.1,
+ "max_dh": 14.1,
+ "zusammenfassung": "Laut dem von der Stadt St. Pölten veröffentlichten Untersuchungsbefund (Brunnen IV in Harland, Probe vom 13. Jänner 2026) hat das Trinkwasser eine Gesamthärte von 14,1 °dH und ist damit mittelhart. Die Karbonathärte liegt bei 12,6 °dH.",
+ "zonen": [
+  {"zone": "Brunnen IV, Harland (Befund 13.01.2026)", "dh": "14,1"}
+ ],
+ "hinweis": "Wert aus der chemisch-bakteriologischen Untersuchung des Brunnens IV (WSB Labor-GmbH, Analytik 13.–20.01.2026): Gesamthärte (berechnet) 14,1 °dH, Karbonathärte 12,6 °dH, Kalzium 69,0 mg/l, Magnesium 19,0 mg/l. Die Stadt veröffentlicht nur diesen einen Brunnenbefund; je nach Versorgungsbereich kann die Härte leicht abweichen.",
+ "slug": "st-poelten"
+}

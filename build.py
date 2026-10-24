@@ -46,6 +46,10 @@ AFF = f"""<div class="card aff"><h2>Passende Produkte</h2><p>Gegen Kalk im Allta
 <a class="btn" rel="sponsored nofollow" href="{amz('Wasserhärte Teststreifen')}">Härte-Teststreifen auf Amazon</a>
 <p class="src">Werbung / Affiliate-Links.</p></div>"""
 
+def rng(lo, hi):
+    f = lambda x: str(x).replace('.', ',')
+    return f(lo) if lo == hi else f'{f(lo)}–{f(hi)}'
+
 def ort(o):
     lo, hi = o["min_dh"], o["max_dh"]
     st = stufe(hi); rows = ""
@@ -58,12 +62,12 @@ def ort(o):
     src = f"<a href='{e(o['quelle'])}' rel='nofollow'>{e(o['quelle_titel'])}</a>" + (f" · <a href='{e(o['quelle2'])}' rel='nofollow'>weitere Quelle</a>" if o.get("quelle2") else "")
     body = f"""<p class="src"><a href="../index.html">Start</a> › {e(o['bundesland'])} › {e(o['name'])}</p>
 <h1>Wasserhärte in {e(o['name'])}</h1>
-<div class="card"><div class="big">{fmt(lo)}–{fmt(hi)} °dH</div><p>{e(o['zusammenfassung'])}</p>
+<div class="card"><div class="big">{rng(lo,hi)} °dH</div><p>{e(o['zusammenfassung'])}</p>
 <p class="src">Versorger: {e(o['versorger'])}<br>Quelle: {src}<br>Abgerufen am {o['abgerufen']}</p></div>
 <div class="card"><h2>Wasserhärte nach Gebiet</h2><div style="overflow-x:auto"><table><tr>{h}</tr>{rows}</table></div><p class="src">{e(o.get('hinweis',''))}</p></div>
 <div class="card"><h2>Tipps für Ihren Härtebereich</h2>{tips}<p>Mehr dazu: <a href="../geschirrspueler-einstellen.html">Geschirrspüler richtig einstellen</a> · <a href="../wasserhaerte-erklaert.html">Was bedeutet °dH?</a></p></div>{AFF}"""
-    page(f"orte/{o['slug']}.html", f"Wasserhärte {o['name']}: {fmt(lo)}–{fmt(hi)} °dH nach Gebiet ({o['bundesland']})",
-         f"Aktuelle Wasserhärte in {o['name']} laut {o['versorger']}: {fmt(lo)} bis {fmt(hi)} °dH. Werte je Gebiet, Quelle & Tipps zu Entkalken und Waschmittel.", body, 1)
+    page(f"orte/{o['slug']}.html", f"Wasserhärte {o['name']}: {rng(lo,hi)} °dH nach Gebiet ({o['bundesland']})",
+         f"Aktuelle Wasserhärte in {o['name']} laut {o['versorger']}: {rng(lo,hi).replace("–"," bis ")} °dH. Werte je Gebiet, Quelle & Tipps zu Entkalken und Waschmittel.", body, 1)
 
 def main():
     shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
@@ -73,7 +77,7 @@ def main():
     idx = "<h1>Wasserhärte in Österreich – nach Gemeinde und Bezirk</h1><p>Wie hart ist Ihr Leitungswasser? Hier finden Sie die Gesamthärte in °dH direkt aus den Veröffentlichungen der Wasserversorger – mit Quelle und Datum.</p>"
     for b in BL:
         lst = [o for o in orte if o["bundesland"] == b]
-        if lst: idx += f"<div class='card'><h2>{b}</h2><ul class='orte'>" + "".join(f"<li><a href='orte/{o['slug']}.html'>{e(o['name'])}</a> – {str(o['min_dh']).replace('.',',')}–{str(o['max_dh']).replace('.',',')} °dH</li>" for o in lst) + "</ul></div>"
+        if lst: idx += f"<div class='card'><h2>{b}</h2><ul class='orte'>" + "".join(f"<li><a href='orte/{o['slug']}.html'>{e(o['name'])}</a> – {rng(o['min_dh'],o['max_dh'])} °dH</li>" for o in lst) + "</ul></div>"
     idx += "<div class='card'><h2>Ratgeber</h2><ul><li><a href='wasserhaerte-erklaert.html'>°dH und Härtebereiche erklärt</a></li><li><a href='geschirrspueler-einstellen.html'>Geschirrspüler nach Wasserhärte einstellen</a></li></ul></div>"
     page("index.html", "Wasserhärte Österreich – Werte nach Gemeinde & Bezirk (°dH)", "Wasserhärte in Wien, Tirol, Salzburg, Linz & mehr: offizielle °dH-Werte der Wasserversorger mit Quelle, plus Tipps für Geschirrspüler und Waschmittel.", idx, 0)
     page("wasserhaerte-erklaert.html","Wasserhärte erklärt: °dH, mmol/l und Härtebereiche in Österreich","Was bedeutet °dH? Härtestufen I–III nach ÖVGW, Härtebereiche für Waschmittel und Umrechnung in mmol/l – einfach erklärt.", """<h1>Wasserhärte erklärt: °dH und Härtebereiche</h1>
