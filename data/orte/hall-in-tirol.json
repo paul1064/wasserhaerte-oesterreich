@@ -1,0 +1,18 @@
+{
+ "name": "Hall in Tirol",
+ "bundesland": "Tirol",
+ "typ": "Stadt",
+ "versorger": "HALL AG Kommunal GmbH (Wasserversorgungsanlage Hall)",
+ "quelle": "https://www.hall.ag/content/download/6446/52956/version/7/file/07_2026%20Trinkwasserinformation%20WVA%20Hall.pdf",
+ "quelle_titel": "HALL AG: Trinkwasserinformation WVA Hall (07/2026, Probeneingang 12.05.2026, Labor inaq Innsbruck)",
+ "quelle2": "https://www.hall.ag/Wasser/Trinkwasser/Wasserqualitaet",
+ "abgerufen": "2026-10-25",
+ "min_dh": 5.2,
+ "max_dh": 5.2,
+ "zusammenfassung": "Hall in Tirol hat weiches Wasser: Laut der aktuellen Trinkwasserinformation der HALL AG (Probe vom Mai 2026) liegt die Gesamthärte bei 5,2 °dH, die Karbonathärte bei 4,4 °dH. Das Wasser stammt aus Quellen im Bettelwurfmassiv (Halltal) und wird im Trinkwasserstollen gefasst.",
+ "zonen": [
+  {"zone": "Wasserversorgungsanlage Hall (Probe 12.05.2026)", "dh": "5,2"}
+ ],
+ "hinweis": "Werte aus der Trinkwasserinformation der HALL AG (Analyse inaq – Institut für Analytik und Qualität, Innsbruck): Gesamthärte 5,2 °dH, Karbonathärte 4,4 °dH, Nichtkarbonathärte 0,8 °dH, Calcium 24,5 mg/l, Magnesium 7,6 mg/l, pH 7,9. Auf ihrer Website stuft die HALL AG das Wasser mit rund 5 °dH als weich ein.",
+ "slug": "hall-in-tirol"
+}
