@@ -1,0 +1,20 @@
+{
+ "name": "Kufstein",
+ "bundesland": "Tirol",
+ "typ": "Stadt",
+ "versorger": "Stadtwerke Kufstein GmbH",
+ "quelle": "https://www.stwk.at/fileadmin/Stadtwerke/Downloads/Wasser_und_Abwasser/2026-04-10_Trinkwasserinformation_Repr%C3%A4sentative_Netzprobe.pdf",
+ "quelle_titel": "Stadtwerke Kufstein: Trinkwasserinformation Repräsentative Netzprobe (Probeneingang 17.03.2026) sowie Prüfberichte Hofinger Quelle und Tiefbrunnen Fürhölzl",
+ "quelle2": "https://www.stwk.at/wasser/",
+ "abgerufen": "2026-10-26",
+ "min_dh": 6.6,
+ "max_dh": 9.0,
+ "zusammenfassung": "Kufstein hat weiches bis mittelhartes Wasser: Die Stadtwerke Kufstein geben die Gesamthärte mit 7–9 °dH an. In den Prüfberichten vom März 2026 liegt die Hofinger Quelle bei 6,6 °dH, der Tiefbrunnen Fürhölzl bei 9 °dH und die repräsentative Netzprobe (VZ Lehenhof) bei 6,8 °dH.",
+ "zonen": [
+  {"zone": "Repräsentative Netzprobe VZ Lehenhof (17.03.2026)", "dh": "6,8"},
+  {"zone": "Hofinger Quelle (17.03.2026)", "dh": "6,6"},
+  {"zone": "Tiefbrunnen Fürhölzl – Grundwasser (17.03.2026)", "dh": "9,0"}
+ ],
+ "hinweis": "Werte aus den Trinkwasserinformationen der Stadtwerke Kufstein (Stand 10.04.2026, Probeneingang 17.03.2026). Netzprobe: Gesamthärte 6,8 °dH, Karbonathärte 6 °dH, Calcium 36,3 mg/l, Magnesium 7,5 mg/l, pH 8. Auf ihrer Website nennen die Stadtwerke eine Gesamthärte von 7–9 °dH (mittelhart) und eine Karbonathärte von 5,7–8,5 °dH. Wie viel Quell- bzw. Grundwasser bei dir ankommt, hängt vom Stadtteil ab.",
+ "slug": "kufstein"
+}

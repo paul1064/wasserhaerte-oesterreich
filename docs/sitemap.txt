@@ -5,6 +5,7 @@ https://BENUTZERNAME.github.io/REPO/orte/graz.html
 https://BENUTZERNAME.github.io/REPO/orte/hall-in-tirol.html
 https://BENUTZERNAME.github.io/REPO/orte/innsbruck.html
 https://BENUTZERNAME.github.io/REPO/orte/klagenfurt.html
+https://BENUTZERNAME.github.io/REPO/orte/kufstein.html
 https://BENUTZERNAME.github.io/REPO/orte/linz.html
 https://BENUTZERNAME.github.io/REPO/orte/salzburg.html
 https://BENUTZERNAME.github.io/REPO/orte/schwaz.html
