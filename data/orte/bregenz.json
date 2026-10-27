@@ -1,0 +1,18 @@
+{
+ "name": "Bregenz",
+ "bundesland": "Vorarlberg",
+ "typ": "Stadt",
+ "versorger": "Stadtwerke Bregenz GmbH",
+ "quelle": "https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet",
+ "quelle_titel": "Stadtwerke Bregenz: Wasserqualität – Wasserkennzahlen (Werte vom 30.03.2026)",
+ "abgerufen": "2026-10-27",
+ "min_dh": 11.1,
+ "max_dh": 13.8,
+ "zusammenfassung": "Bregenz hat mittelhartes Wasser: Laut den Stadtwerken Bregenz (Werte vom 30.03.2026) liegt das Grundwasser Bregenz Stadt bei 11,1 °dH Gesamthärte, das Quellwasser Bregenz Fluh bei 13,8 °dH.",
+ "zonen": [
+  {"zone": "Grundwasser Bregenz Stadt (30.03.2026)", "dh": "11,1"},
+  {"zone": "Quellwasser Bregenz Fluh (30.03.2026)", "dh": "13,8"}
+ ],
+ "hinweis": "Werte aus der Veröffentlichung der Wasserkennzahlen der Stadtwerke Bregenz (Stand 30.03.2026). Grundwasser Bregenz Stadt: Gesamthärte 11,1 °dH, Karbonathärte 11,1 °dH, Calcium 65,0 mg/l, Magnesium 8,8 mg/l, pH 7,6. Quellwasser Bregenz Fluh: Gesamthärte 13,8 °dH, Karbonathärte 14,4 °dH, Calcium 81,0 mg/l, Magnesium 11,0 mg/l, pH 7,6. Im Fließtext nennen die Stadtwerke 11,6 °dH (mittelhart, Härtebereich II). Welches Wasser bei dir ankommt, hängt vom Stadtteil ab.",
+ "slug": "bregenz"
+}
