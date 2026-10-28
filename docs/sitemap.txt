@@ -2,6 +2,7 @@ https://BENUTZERNAME.github.io/REPO/index.html
 https://BENUTZERNAME.github.io/REPO/wasserhaerte-erklaert.html
 https://BENUTZERNAME.github.io/REPO/geschirrspueler-einstellen.html
 https://BENUTZERNAME.github.io/REPO/orte/bregenz.html
+https://BENUTZERNAME.github.io/REPO/orte/feldkirch.html
 https://BENUTZERNAME.github.io/REPO/orte/graz.html
 https://BENUTZERNAME.github.io/REPO/orte/hall-in-tirol.html
 https://BENUTZERNAME.github.io/REPO/orte/innsbruck.html

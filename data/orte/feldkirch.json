@@ -1,0 +1,20 @@
+{
+ "name": "Feldkirch",
+ "bundesland": "Vorarlberg",
+ "typ": "Stadt",
+ "versorger": "Stadtwerke Feldkirch",
+ "quelle": "https://www.stadtwerke-feldkirch.at/unsere-bereiche/wasser/informationen-zur-wasserqualitaet-und-haerte",
+ "quelle_titel": "Stadtwerke Feldkirch: Informationen zur Wasserqualität und -härte (inkl. Untersuchungsbefunde, Probenahme 15.09.2025)",
+ "abgerufen": "2026-10-28",
+ "min_dh": 9.2,
+ "max_dh": 17.0,
+ "zusammenfassung": "Feldkirch hat je nach Stadtteil weiches bis mittelhartes Wasser: Laut den Stadtwerken Feldkirch liegt das Quellwasser bei 7–9 °dH (weich), das Grundwasser aus dem Frastanzerried bei 15–17 °dH (mittelhart). Die aktuellen Befunde (Probenahme 15.09.2025) zeigen 9,2 bis 17,0 °dH.",
+ "zonen": [
+  {"zone": "Quellwasser Bereich Samina (Befund 15.09.2025)", "dh": "9,2"},
+  {"zone": "Quellwasser HB Tisis, Netzabgabe (Befund 15.09.2025)", "dh": "15,6"},
+  {"zone": "Grundwasser Horizontalfilterbrunnen Frastanz (Befund 15.09.2025)", "dh": "16,9"},
+  {"zone": "Grundwasser Brunnen Felsenau (Befund 15.09.2025)", "dh": "17,0"}
+ ],
+ "hinweis": "Die Stadtwerke Feldkirch nennen auf ihrer Seite 7–9 °dH für das Quellwasser und 15–17 °dH für das Grundwasser aus dem Frastanzerried. Die dort verlinkten Untersuchungsbefunde (Probenahme 15.09.2025, Befund vom 10.12.2025) ergeben: Samina 9,2 °dH (Karbonathärte 7,7 °dH), HB Tisis Netzabgabe 15,6 °dH (13,0 °dH), Horizontalfilterbrunnen Frastanz 16,9 °dH (14,4 °dH), Brunnen Felsenau 17,0 °dH (13,3 °dH). Welches Wasser bei dir ankommt, hängt vom Stadtteil ab – die Stadtwerke bieten dazu einen Wasserhärte-Detailplan an.",
+ "slug": "feldkirch"
+}
