@@ -1,0 +1,19 @@
+{
+ "name": "Villach",
+ "bundesland": "Kärnten",
+ "typ": "Stadt",
+ "versorger": "Wasserwerk der Stadt Villach",
+ "quelle": "https://villach.at/stadt-service/wasser/wasserqualitaet-wasserhaerte",
+ "quelle_titel": "Stadt Villach: Wasserqualität und Wasserhärte",
+ "abgerufen": "2026-10-29",
+ "min_dh": 9.4,
+ "max_dh": 16.0,
+ "zusammenfassung": "Villach hat je nach Versorgungsbereich mäßig hartes bis ziemlich hartes Wasser: Laut Stadt Villach liegt die Union Quelle bei 9,4–10,4 °dH, die Barbara Quelle bei 12,3 °dH und der Brunnen Urlaken bei 14,0–16,0 °dH.",
+ "zonen": [
+  {"zone": "Union Quelle", "dh": "9,4–10,4"},
+  {"zone": "Barbara Quelle", "dh": "12,3"},
+  {"zone": "Brunnen Urlaken", "dh": "14,0–16,0"}
+ ],
+ "hinweis": "Die Werte stammen von der Seite „Wasserqualität und Wasserhärte“ der Stadt Villach. Welches Wasser bei dir ankommt, hängt vom Stadtteil ab – die Stadt bietet dazu einen GIS-Plan mit den Wasserhärten sowie Wasserqualitätstabellen je Versorgungszone (Villach, Landskron, Mittewald ob Villach) an.",
+ "slug": "villach"
+}
