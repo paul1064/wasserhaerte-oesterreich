@@ -1,0 +1,21 @@
+{
+ "name": "Wels",
+ "bundesland": "Oberösterreich",
+ "typ": "Stadt",
+ "versorger": "eww ag (Wasserversorgung der Stadt Wels)",
+ "quelle": "https://www.eww.at/fileadmin/user_upload/downloads/wasser/infomaterial/Agrolab-Pruefbefund-eww-Wasser.pdf",
+ "quelle_titel": "eww ag: Prüfbericht Trinkwasser (Agrolab, Probenahme 03.07.2026)",
+ "abgerufen": "2026-10-30",
+ "min_dh": 9.6,
+ "max_dh": 9.7,
+ "zusammenfassung": "Wels hat mittelhartes Wasser: Laut Prüfbericht der eww ag (Probenahme 03.07.2026) lag die Gesamthärte an fünf Entnahmestellen im Stadtgebiet zwischen 9,57 und 9,71 °dH.",
+ "zonen": [
+  {"zone": "Salzburger Straße 223", "dh": "9,60"},
+  {"zone": "Roithenstraße / Ecke Holzfeldstraße", "dh": "9,71"},
+  {"zone": "Grieskirchner Straße 42 (AKH)", "dh": "9,58"},
+  {"zone": "Maxlhaid 9", "dh": "9,57"},
+  {"zone": "Wimpassinger Straße 100", "dh": "9,66"}
+ ],
+ "hinweis": "Die Werte stammen aus dem Prüfbericht des Labors Agrolab im Auftrag der eww ag (Probenahme 03.07.2026, Bericht vom 09.07.2026). Die Carbonathärte lag bei rund 9,4–9,5 °dH. Das Wasser ist im ganzen Stadtgebiet sehr einheitlich.",
+ "slug": "wels"
+}

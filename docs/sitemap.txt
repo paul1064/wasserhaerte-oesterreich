@@ -13,4 +13,5 @@ https://BENUTZERNAME.github.io/REPO/orte/salzburg.html
 https://BENUTZERNAME.github.io/REPO/orte/schwaz.html
 https://BENUTZERNAME.github.io/REPO/orte/st-poelten.html
 https://BENUTZERNAME.github.io/REPO/orte/villach.html
+https://BENUTZERNAME.github.io/REPO/orte/wels.html
 https://BENUTZERNAME.github.io/REPO/orte/wien.html
