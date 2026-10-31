@@ -1,0 +1,20 @@
+{
+ "name": "Wiener Neustadt",
+ "bundesland": "Niederösterreich",
+ "typ": "Stadt",
+ "versorger": "Wasserwerk Wiener Neustadt (WNSKS)",
+ "quelle": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
+ "quelle_titel": "Wasserwerk Wiener Neustadt: Informationsblatt gemäß § 6 Trinkwasserverordnung (Jahresdurchschnitt 2025)",
+ "abgerufen": "2026-10-31",
+ "min_dh": 14.5,
+ "max_dh": 20.5,
+ "zusammenfassung": "Wiener Neustadt hat ziemlich hartes bis hartes Wasser: Laut Informationsblatt des Wasserwerks lag die Gesamthärte im Jahresdurchschnitt 2025 je nach Wasserwerk zwischen 14,5 und 20,5 °dH.",
+ "zonen": [
+  {"zone": "Wasserwerk Süd", "dh": "14,5"},
+  {"zone": "Wasserwerk West", "dh": "20,5"},
+  {"zone": "Wasserwerk Ost", "dh": "16,4"},
+  {"zone": "Wasserwerk Heideansiedlung", "dh": "17,7"}
+ ],
+ "hinweis": "Die Werte sind Jahresdurchschnitte 2025 laut Wasserwerk Wiener Neustadt; die Karbonathärte lag bei 11,7–15,1 °dH. Die tatsächlichen Werte können geringfügig abweichen – welches Wasserwerk deine Adresse versorgt, erfährst du beim Wasserwerk (02622 373550, Wasserwerk@wnsks.at).",
+ "slug": "wiener-neustadt"
+}
