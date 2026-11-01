@@ -1,0 +1,24 @@
+{
+ "name": "Leoben",
+ "bundesland": "Steiermark",
+ "typ": "Stadt",
+ "versorger": "Stadtwerke Leoben",
+ "quelle": "https://www.stadtwerke-leoben.at/wasserversorgung/",
+ "quelle_titel": "Stadtwerke Leoben: Wasserversorgung – Wie hart ist das Leobener Wasser?",
+ "abgerufen": "2026-11-01",
+ "min_dh": 8.5,
+ "max_dh": 14.0,
+ "zusammenfassung": "Leoben hat mittelhartes Wasser: Laut Stadtwerken Leoben liegt die Wasserhärte im gesamten Versorgungsgebiet zwischen 9 und 14 °dH, je nach Stadtteil zwischen 8,5 und 14,0 °dH.",
+ "zonen": [
+  {"zone": "Innere Stadt", "dh": "11,3"},
+  {"zone": "Lerchenfeld", "dh": "8,5"},
+  {"zone": "Göss", "dh": "11,3"},
+  {"zone": "Leitendorf", "dh": "11,3"},
+  {"zone": "Hinterberg", "dh": "13,4"},
+  {"zone": "Donawitz", "dh": "11,3"},
+  {"zone": "Judendorf", "dh": "11,3"},
+  {"zone": "Nennersdorf", "dh": "14,0"}
+ ],
+ "hinweis": "Die Stadtwerke Leoben empfehlen, Wasch- und Reinigungsmittel nach dem Härtebereich „mittel“ zu dosieren. Das Wasser stammt aus kalkhaltigen Schotterzonen; aktuelle Prüfberichte findest du auf der Seite der Stadtwerke Leoben.",
+ "slug": "leoben"
+}
