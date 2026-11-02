@@ -1,0 +1,17 @@
+{
+ "name": "Steyr",
+ "bundesland": "Oberösterreich",
+ "typ": "Stadt",
+ "versorger": "Stadtbetriebe Steyr",
+ "quelle": "https://www.stadtbetriebe.at/Wasser/FAQ",
+ "quelle_titel": "Stadtbetriebe Steyr: Wasser – FAQ „Wie hoch ist meine Wasserhärte?“",
+ "abgerufen": "2026-11-02",
+ "min_dh": 16.0,
+ "max_dh": 16.0,
+ "zusammenfassung": "Steyr hat ziemlich hartes Wasser: Laut den Stadtbetrieben Steyr beträgt die Wasserhärte in Steyr 16 °dH. Das liegt an der Grenze zwischen „ziemlich hart“ und „hart“.",
+ "zonen": [
+  {"zone": "Versorgungsgebiet Steyr (Stadtbetriebe Steyr)", "dh": "16"}
+ ],
+ "hinweis": "Die Stadtbetriebe Steyr geben einen einheitlichen Wert von 16 °dH an und ordnen ihn nach ihrer eigenen Einteilung dem Härtebereich II (10–16 °dH, ziemlich hartes Wasser) zu. Waschmittel, Kalkschutzmittel und Geschirrspüler solltest du entsprechend dieser Härtestufe einstellen.",
+ "slug": "steyr"
+}
