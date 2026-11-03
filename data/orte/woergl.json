@@ -1,0 +1,19 @@
+{
+ "name": "Wörgl",
+ "bundesland": "Tirol",
+ "typ": "Stadt",
+ "versorger": "Stadtwerke Wörgl",
+ "quelle": "https://www.stww.at/wp-content/uploads/2024/11/241121_Trinkwasserparameter2024.pdf",
+ "quelle_titel": "Stadtwerke Wörgl: Trinkwasserparameter – Ergebnisse 2024 nach Versorgungszonen (Stand November 2024)",
+ "abgerufen": "2026-11-03",
+ "min_dh": 7.4,
+ "max_dh": 14.6,
+ "zusammenfassung": "Wörgl hat je nach Versorgungszone mittelhartes bis ziemlich hartes Wasser: Laut Stadtwerken Wörgl liegt die Gesamthärte zwischen 7,4 und 14,6 °dH. Im Stadtgebiet sind es 14,6 °dH.",
+ "zonen": [
+  {"zone": "Versorgungszone Stadt", "dh": "14,6"},
+  {"zone": "Versorgungszone Weiler Haus", "dh": "12,2"},
+  {"zone": "Versorgungszone Hennersberg", "dh": "7,4"}
+ ],
+ "hinweis": "Die Werte stammen aus den Untersuchungsergebnissen 2024 der Stadtwerke Wörgl (Gesamthärte; Karbonathärte 12,0 / 10,0 / 6,1 °dH). Welche Zone für deine Adresse gilt, erfährst du bei den Stadtwerken Wörgl. Stell Waschmittel und Geschirrspüler entsprechend deiner Zone ein.",
+ "slug": "woergl"
+}
