@@ -1,0 +1,18 @@
+{
+ "name": "Krems an der Donau",
+ "bundesland": "Niederösterreich",
+ "typ": "Stadt",
+ "versorger": "Wasserwerk der Stadt Krems",
+ "quelle": "https://www.krems.at/rathaus/buergerservice/anliegen-von-a-z/wasserqualitaet",
+ "quelle_titel": "Stadt Krems: Wasserqualität – Aktuelle Wasserwerte (Stand Ende Oktober 2025)",
+ "abgerufen": "2026-11-08",
+ "min_dh": 11.0,
+ "max_dh": 22.0,
+ "zusammenfassung": "Krems an der Donau hat ziemlich hartes bis hartes Wasser: Laut Stadt Krems schwankt die Gesamthärte in Krems Nord zwischen 11 und 22 °dH, in Krems Süd liegt sie bei 20 °dH.",
+ "zonen": [
+  {"zone": "Krems Nord", "dh": "11–22 (schwankend)"},
+  {"zone": "Krems Süd", "dh": "20"}
+ ],
+ "hinweis": "Die Werte stammen von der Seite „Wasserqualität“ der Stadt Krems (Stand Ende Oktober 2025). In Krems Nord schwankt die Härte stark; wenn du Geschirrspüler oder Enthärtung genau einstellen willst, frag beim Wasserwerk Krems (02732/801-841) nach dem aktuellen Wert für deine Adresse. Laut Stadt wird das Trinkwasser derzeit ohne Aufbereitung und Desinfektion geliefert.",
+ "slug": "krems"
+}
